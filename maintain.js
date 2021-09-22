@@ -5,7 +5,7 @@ const Fs = require('fs')
 
 
 async function Maintain() {
-  console.log('MAINTAIN 0.0.2')
+  console.log('MAINTAIN 0.0.3')
 
   const rootFolder = process.cwd()
   let foo = Fs.existsSync(rootFolder+'/foo.txt')
